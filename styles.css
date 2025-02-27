@@ -1,0 +1,54 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F3E8FF; /* Light Purple */
+    color: #4B0082; /* Dark Purple Text */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #E0C3FC; /* Soft Lavender */
+    padding: 20px;
+    font-family: 'Lilita One', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #4B0082;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    padding: 50px;
+    background: #f0acf0; /* Light Orchid */
+    border-radius: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    color: #4B0082;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #E6E6FA; /* Lavender */
+}
